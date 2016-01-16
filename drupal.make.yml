@@ -24,3 +24,10 @@ projects:
   migrate_tools: "1.0-beta1"
   migrate_ui: "1.0"
 
+  monkey_migrate:
+    type: "module"
+    download:
+      type: "git"
+      url: https://github.com/Eli-TW/monkey-migrate.git
+      revision: "8.0.x"
+      working-copy: true
