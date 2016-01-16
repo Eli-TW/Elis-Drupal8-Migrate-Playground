@@ -125,12 +125,19 @@ mysql_databases:
   - name: "{{ drupal_mysql_database }}"
     encoding: utf8
     collation: utf8_general_ci
+  - name: monkeys
+    encoding: utf8
+    collation: utf8_general_ci
 
 mysql_users:
   - name: "{{ drupal_mysql_user }}"
     host: "%"
     password: "{{ drupal_mysql_password }}"
     priv: "{{ drupal_mysql_database }}.*:ALL"
+  - name: "monkeys"
+    host: "%"
+    password: "monkeys"
+    priv: "monkeys.*:ALL"
 
 # Comment out any extra utilities you don't want to install. If you don't want
 # to install *any* extras, make set this value to an empty set, e.g. `[]`.
