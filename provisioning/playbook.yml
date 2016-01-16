@@ -78,3 +78,6 @@
     - name: Run configured post-provision shell scripts.
       script: "{{ item }}"
       with_items: post_provision_scripts
+
+    # Set up tables and data for monkey database
+    - include: tasks/import-monkeys.yml

@@ -1,0 +1,3 @@
+---
+- copy: src=monkeys.sql dest=/tmp
+- mysql_db: name=monkeys state=import target=/tmp/monkeys.sql
