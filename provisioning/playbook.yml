@@ -81,3 +81,6 @@
 
     # Set up tables and data for monkey database
     - include: tasks/import-monkeys.yml
+
+    # Add the monkeys database to settings.php
+    - include: tasks/add-monkeys-to-settings.yml
