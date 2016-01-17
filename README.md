@@ -1,3 +1,8 @@
+This project is a fork of [Drupal VM](http://www.drupalvm.com/) by [Jeff Geerling](https://github.com/geerlingguy) for the purpose of playing with Migrate in Drupal 8.
+Upon provisioning this VM, a Drupal 8 website will be built with all the modules you need to run migrate, a couple of custom modules that implement a migration and an extra database populated with content to migrate data from.
+
+Regular DrupalVM documentation follows.
+
 ![Drupal VM Logo](https://raw.githubusercontent.com/geerlingguy/drupal-vm/master/docs/images/drupal-vm-logo.png)
 
 [![Build Status](https://travis-ci.org/geerlingguy/drupal-vm.svg?branch=master)](https://travis-ci.org/geerlingguy/drupal-vm) [![Documentation Status](https://readthedocs.org/projects/drupal-vm/badge/?version=latest)](http://docs.drupalvm.com)
