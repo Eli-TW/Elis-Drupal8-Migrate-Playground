@@ -1,3 +1,6 @@
+drop table IF EXISTS monkeys;
+drop table IF EXISTS trees;
+
 create table monkeys (
   name varchar(32),
   monkey_id int(10) unsigned auto_increment,
