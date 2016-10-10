@@ -29,5 +29,5 @@ projects:
     download:
       type: "git"
       url: https://github.com/Eli-TW/monkey-migrate.git
-      revision: "8.0.x"
+      revision: "8.1.x"
       working-copy: true
